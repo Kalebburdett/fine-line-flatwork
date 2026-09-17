@@ -117,11 +117,11 @@
             <span>✓ Photos welcome</span>
           </div>
         </div>
-        <!-- Connect this form to Formspree before publishing form notifications. -->
-        <form action="mailto:kalebburdett01@gmail.com" method="post" enctype="text/plain">
+        <form action="https://formspree.io/f/xzezbeoz" method="POST" enctype="multipart/form-data">
           <input type="text" name="name" placeholder="Your name" required>
           <input type="tel" name="phone" placeholder="Phone number" required>
           <input type="email" name="email" placeholder="Email">
+          <input type="hidden" name="subject" value="New Fine Line Flat Work Quote Request">
           <select name="project" required>
             <option value="" disabled selected>What do you need done?</option>
             <option>Driveway</option>
@@ -137,7 +137,7 @@
           </select>
           <input type="text" name="project_size" placeholder="Approximate size (example: 20 x 30)">
           <textarea name="message" placeholder="Tell us about your project" rows="5"></textarea>
-          <label class="upload-label">Project photos <span>(optional)</span><input type="file" name="photos" accept="image/*" multiple></label>
+          <label class="upload-label">Project photos <span>(optional)</span><input type="file" name="photos" accept="image/png,image/jpeg,image/webp" multiple></label>
           <button class="btn" type="submit">Request a Quote</button>
         </form>
       </div>
