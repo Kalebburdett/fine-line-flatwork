@@ -46,7 +46,7 @@ body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#171717;background:#0
 .area-list span{background:#080808;border:1px solid #bbb;padding:10px 18px;font-weight:800}
 .area-list span:hover{border-color:#e77f7d}
 .quote-section{background:#e77f7d;padding:90px 0}
-.quote-box{display:grid;grid-template-columns:1fr 1fr;gap:60px;background:#080808;padding:50px;border:1px solid #111;box-shadow:12px 12px 0 #111}
+.quote-box{display:grid;grid-template-columns:1fr 1fr;gap:60px;background:#666666;padding:50px;border:1px solid #111;box-shadow:12px 12px 0 #111}
 .quote-box h2{color:#111}
 .quote-box form{display:grid;gap:12px}
 input,textarea,select{width:100%;border:1px solid #bbb;padding:14px;font:inherit;background:#fafafa;border-radius:0}
